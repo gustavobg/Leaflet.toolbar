@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae0303d7-1f8d-4701-9933-c10660d7be04" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Leaflet.toolbar.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Toolbar.Control.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Toolbar.Popup.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Toolbar.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ToolbarAction.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/leaflet.toolbar-src.js" afterPath="$PROJECT_DIR$/dist/leaflet.toolbar-src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/leaflet.toolbar.js" afterPath="$PROJECT_DIR$/dist/leaflet.toolbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/control.html" afterPath="$PROJECT_DIR$/examples/control.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/minimal.html" afterPath="$PROJECT_DIR$/examples/minimal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/popup.html" afterPath="$PROJECT_DIR$/examples/popup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/subtoolbar.html" afterPath="$PROJECT_DIR$/examples/subtoolbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Toolbar.Control.js" afterPath="$PROJECT_DIR$/src/Toolbar.Control.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="leaflet.toolbar-src.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/leaflet.toolbar-src.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1734">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Toolbar.Control.js" />
+        <option value="$PROJECT_DIR$/src/Toolbar.js" />
+        <option value="$PROJECT_DIR$/examples/minimal.html" />
+        <option value="$PROJECT_DIR$/examples/subtoolbar.html" />
+        <option value="$PROJECT_DIR$/examples/control.html" />
+        <option value="$PROJECT_DIR$/examples/popup.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER">
+    <gruntfile path="$PROJECT_DIR$/Gruntfile.js">
+      <alias-task name="test" info="Alias for &quot;jshint&quot;, &quot;karma:unit&quot;, &quot;coverage&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="jshint" />
+        <dependency value="karma:unit" />
+        <dependency value="coverage" />
+      </alias-task>
+      <alias-task name="default" info="Alias for &quot;karma:development:start&quot;, &quot;watch&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="karma:development:start" />
+        <dependency value="watch" />
+      </alias-task>
+      <alias-task name="travis" info="Alias for &quot;jshint&quot;, &quot;karma:travis&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="jshint" />
+        <dependency value="karma:travis" />
+      </alias-task>
+      <alias-task name="build:js" info="Alias for &quot;jshint&quot;, &quot;karma:development:run&quot;, &quot;coverage&quot;, &quot;concat:dist&quot;, &quot;uglify:dist&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="jshint" />
+        <dependency value="karma:development:run" />
+        <dependency value="coverage" />
+        <dependency value="concat:dist" />
+        <dependency value="uglify:dist" />
+      </alias-task>
+      <alias-task name="build:css" info="Alias for &quot;less&quot;, &quot;autoprefixer&quot;, &quot;cssmin&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="less" />
+        <dependency value="autoprefixer" />
+        <dependency value="cssmin" />
+      </alias-task>
+      <core-task name="autoprefixer" info="Prefix CSS files." file-path="$PROJECT_DIR$/node_modules/grunt-autoprefixer/tasks/autoprefixer.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="bump" info="Increment the version, commit, tag and push." file-path="$PROJECT_DIR$/node_modules/grunt-bump/tasks/bump.js" multi="false" />
+      <core-task name="bump-only" info="Increment the version only." file-path="$PROJECT_DIR$/node_modules/grunt-bump/tasks/bump.js" multi="false" />
+      <core-task name="bump-commit" info="Commit, tag, push without incrementing the version." file-path="$PROJECT_DIR$/node_modules/grunt-bump/tasks/bump.js" multi="false" />
+      <core-task name="clean" info="Clean files and folders." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-clean/tasks/clean.js" multi="true" />
+      <core-task name="coffee" info="Compile CoffeeScript files into JavaScript" file-path="$PROJECT_DIR$/node_modules/grunt-contrib-coffee/tasks/coffee.js" multi="true" />
+      <core-task name="concat" info="Concatenate files." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-concat/tasks/concat.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="cssmin" info="Minify CSS" file-path="$PROJECT_DIR$/node_modules/grunt-contrib-cssmin/tasks/cssmin.js" multi="true">
+        <target value="target" />
+      </core-task>
+      <core-task name="jshint" info="Validate files with JSHint." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-jshint/tasks/jshint.js" multi="true">
+        <target value="source" />
+        <target value="test" />
+        <target value="grunt" />
+      </core-task>
+      <core-task name="less" info="Compile LESS files to CSS" file-path="$PROJECT_DIR$/node_modules/grunt-contrib-less/tasks/less.js" multi="true">
+        <target value="source" />
+      </core-task>
+      <core-task name="nodeunit" info="Run Nodeunit unit tests." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-nodeunit/tasks/nodeunit.js" multi="true" />
+      <core-task name="uglify" info="Minify files with UglifyJS." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-uglify/tasks/uglify.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="watch" info="Run predefined tasks whenever watched files change." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-watch/tasks/watch.js" multi="false">
+        <target value="source" />
+        <target value="css" />
+      </core-task>
+      <core-task name="connect" info="Start a connect web server." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-connect/tasks/connect.js" multi="true">
+        <target value="server" />
+      </core-task>
+      <core-task name="gh-pages" info="Publish to gh-pages." file-path="$PROJECT_DIR$/node_modules/grunt-gh-pages/tasks/gh-pages.js" multi="true">
+        <target value="src" />
+      </core-task>
+      <core-task name="gh-pages-clean" info="Clean cache dir" file-path="$PROJECT_DIR$/node_modules/grunt-gh-pages/tasks/gh-pages.js" multi="false" />
+      <core-task name="karma" info="run karma." file-path="$PROJECT_DIR$/node_modules/grunt-karma/tasks/grunt-karma.js" multi="true">
+        <target value="travis" />
+        <target value="development" />
+        <target value="unit" />
+      </core-task>
+      <core-task name="mocha" info="Run Mocha unit tests in a headless PhantomJS instance." file-path="$PROJECT_DIR$/node_modules/grunt-mocha/tasks/mocha.js" multi="true" />
+      <core-task name="coverage" info="Custom commmand-line reporter for karma-coverage" file-path="$PROJECT_DIR$/Gruntfile.js" multi="false" />
+    </gruntfile>
+  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leaflet.toolbar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leaflet.toolbar" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leaflet.toolbar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leaflet.toolbar" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leaflet.toolbar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leaflet.toolbar" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leaflet.toolbar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leaflet.toolbar" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="$USER_HOME$/AppData/Roaming/npm/node_modules/grunt-cli" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="false" name="build:js" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="build:js" />
+      </tasks>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="default" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="default" />
+      </tasks>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="bump-commit" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="bump-commit" />
+      </tasks>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="bump" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="bump" />
+      </tasks>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="connect" type="js.build_tools.grunt" factoryName="Grunt.js" temporary="true">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="connect" />
+      </tasks>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Grunt.js.build:js" />
+      <item index="1" class="java.lang.String" itemvalue="Grunt.js.default" />
+      <item index="2" class="java.lang.String" itemvalue="Grunt.js.bump-commit" />
+      <item index="3" class="java.lang.String" itemvalue="Grunt.js.bump" />
+      <item index="4" class="java.lang.String" itemvalue="Grunt.js.connect" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Grunt.js.connect" />
+        <item index="1" class="java.lang.String" itemvalue="Grunt.js.bump" />
+        <item index="2" class="java.lang.String" itemvalue="Grunt.js.bump-commit" />
+        <item index="3" class="java.lang.String" itemvalue="Grunt.js.build:js" />
+        <item index="4" class="java.lang.String" itemvalue="Grunt.js.default" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae0303d7-1f8d-4701-9933-c10660d7be04" name="Default" comment="" />
+      <created>1491833362974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1491833362974</updated>
+      <workItem from="1491833364588" duration="2922000" />
+      <workItem from="1492018604294" duration="197000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3119000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4891775" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.51082253" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/examples/subtoolbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <marker date="1491834301470" expanded="true" signature="21:3454" ph="..." />
+            <marker date="1491834301470" expanded="true" signature="28:622" ph="..." />
+            <marker date="1491834301470" expanded="true" signature="486:614" ph="..." />
+            <marker date="1491834301470" expanded="true" signature="513:602" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="629:3446" ph="..." />
+            <marker date="1491834301470" expanded="true" signature="667:3438" ph="..." />
+            <marker date="1491834301470" expanded="true" signature="808:922" ph="{&quot;attribution&quot;: '&lt;a href=&quot;http://openstreetmap.org/copyright&quot;&gt;OpenStreetMap Contributors&lt;/a&gt;'...}" />
+            <marker date="1491834301470" expanded="true" signature="946:1248" ph="/*...*/" />
+            <marker date="1491834301470" expanded="true" signature="1305:1626" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="1355:1525" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="1560:1616" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="1676:2021" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="1699:1849" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="1730:1835" ph="{&quot;html&quot;: 'World'...}" />
+            <marker date="1491834301470" expanded="true" signature="1885:2011" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2072:2441" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2095:2255" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2126:2241" ph="{&quot;html&quot;: 'Eiffel Tower'...}" />
+            <marker date="1491834301470" expanded="true" signature="2291:2431" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2493:2688" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2516:2678" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2547:2661" ph="{&quot;html&quot;: '&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;'...}" />
+            <marker date="1491834301470" expanded="true" signature="2744:3296" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2767:3286" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2798:2861" ph="{&quot;className&quot;: 'fa fa-eye'...}" />
+            <marker date="1491834301470" expanded="true" signature="2879:3155" ph="/*...*/" />
+            <marker date="1491834301470" expanded="true" signature="3198:3271" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="3330:3412" ph="{&quot;position&quot;: 'topleft'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Toolbar.Control.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Toolbar.Popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ToolbarAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1491833189328" expanded="true" signature="35:2228" ph="{...}" />
+            <marker date="1491833189328" expanded="true" signature="47:87" ph="{&quot;baseClass&quot;: 'leaflet-toolbar-icon'...}" />
+            <marker date="1491833189328" expanded="true" signature="100:202" ph="{...}" />
+            <marker date="1491833189328" expanded="true" signature="117:168" ph="{&quot;html&quot;: ''...}" />
+            <marker date="1491833189328" expanded="true" signature="236:435" ph="{...}" />
+            <marker date="1491833189328" expanded="true" signature="459:606" ph="{...}" />
+            <marker date="1491833189328" expanded="true" signature="630:742" ph="{...}" />
+            <marker date="1491833189328" expanded="true" signature="794:1415" ph="{...}" />
+            <marker date="1491833189328" expanded="true" signature="1210:1273" ph="{...}" />
+            <marker date="1491833189328" expanded="true" signature="1335:1362" ph="/*...*/" />
+            <marker date="1491833189328" expanded="true" signature="1470:2226" ph="{...}" />
+            <marker date="1491833189328" expanded="true" signature="1583:1623" ph="/*...*/" />
+            <marker date="1491833189328" expanded="true" signature="1708:2223" ph="{...}" />
+            <marker date="1491833189328" expanded="true" signature="1713:1797" ph="/*...*/" />
+            <marker date="1491833189328" expanded="true" signature="1973:2073" ph="{...}" />
+            <marker date="1491833189328" expanded="true" signature="2112:2218" ph="{...}" />
+            <marker date="1491833189328" expanded="true" signature="2282:2323" ph="{...}" />
+            <marker date="1491833189328" expanded="true" signature="2376:2422" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Toolbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <marker date="1491833886452" expanded="true" signature="40:2929" ph="{&quot;includes&quot;: L.Mixin.Events...}" />
+            <marker date="1491833886452" expanded="true" signature="52:87" ph="{&quot;baseClass&quot;: 'leaflet-toolbar'...}" />
+            <marker date="1491833886452" expanded="true" signature="128:202" ph="{&quot;className&quot;: ''...}" />
+            <marker date="1491833886452" expanded="true" signature="236:330" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="355:444" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="469:679" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="566:676" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="707:1163" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="711:912" ph="/*...*/" />
+            <marker date="1491833886452" expanded="true" signature="915:1072" ph="//..." />
+            <marker date="1491833886452" expanded="true" signature="1110:1160" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="1206:2040" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="1470:1535" ph="/*...*/" />
+            <marker date="1491833886452" expanded="true" signature="1657:1743" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="1747:1824" ph="/*...*/" />
+            <marker date="1491833886452" expanded="true" signature="1884:2037" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="2084:2489" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="2159:2484" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="2187:2244" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="2269:2480" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="2275:2347" ph="/*...*/" />
+            <marker date="1491833886452" expanded="true" signature="2493:2559" ph="/*...*/" />
+            <marker date="1491833886452" expanded="true" signature="2579:2618" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="2622:2688" ph="/*...*/" />
+            <marker date="1491833886452" expanded="true" signature="2708:2748" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="2780:2927" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="2851:2907" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="3019:3220" ph="{...}" />
+            <marker date="1491833886452" expanded="true" signature="3064:3108" ph="{&quot;_toolbar_class_id&quot;: toolbar_class_id...}" />
+            <marker date="1491833886452" expanded="true" signature="3252:3277" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/grunt-bump/tasks/bump.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/leaflet-draw/dist/leaflet.draw-src.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/control.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="123" lean-forward="false" selection-start-line="4" selection-start-column="123" selection-end-line="4" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/minimal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="117" lean-forward="false" selection-start-line="3" selection-start-column="117" selection-end-line="3" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="123" lean-forward="false" selection-start-line="4" selection-start-column="123" selection-end-line="4" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/subtoolbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding>
+            <marker date="1491834301470" expanded="true" signature="21:3454" ph="..." />
+            <marker date="1491834301470" expanded="true" signature="28:622" ph="..." />
+            <marker date="1491834301470" expanded="true" signature="486:614" ph="..." />
+            <marker date="1491834301470" expanded="true" signature="513:602" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="629:3446" ph="..." />
+            <marker date="1491834301470" expanded="true" signature="667:3438" ph="..." />
+            <marker date="1491834301470" expanded="true" signature="808:922" ph="{&quot;attribution&quot;: '&lt;a href=&quot;http://openstreetmap.org/copyright&quot;&gt;OpenStreetMap Contributors&lt;/a&gt;'...}" />
+            <marker date="1491834301470" expanded="true" signature="946:1248" ph="/*...*/" />
+            <marker date="1491834301470" expanded="true" signature="1305:1626" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="1355:1525" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="1560:1616" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="1676:2021" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="1699:1849" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="1730:1835" ph="{&quot;html&quot;: 'World'...}" />
+            <marker date="1491834301470" expanded="true" signature="1885:2011" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2072:2441" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2095:2255" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2126:2241" ph="{&quot;html&quot;: 'Eiffel Tower'...}" />
+            <marker date="1491834301470" expanded="true" signature="2291:2431" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2493:2688" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2516:2678" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2547:2661" ph="{&quot;html&quot;: '&lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;'...}" />
+            <marker date="1491834301470" expanded="true" signature="2744:3296" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2767:3286" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="2798:2861" ph="{&quot;className&quot;: 'fa fa-eye'...}" />
+            <marker date="1491834301470" expanded="true" signature="2879:3155" ph="/*...*/" />
+            <marker date="1491834301470" expanded="true" signature="3198:3271" ph="{...}" />
+            <marker date="1491834301470" expanded="true" signature="3330:3412" ph="{&quot;position&quot;: 'topleft'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/leaflet.toolbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/leaflet.toolbar-src.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1734">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
